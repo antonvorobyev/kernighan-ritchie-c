@@ -11,7 +11,7 @@ int main(int argc, char const *argv[])
         wls[i] = 0;
     }
 
-    while ((c = getchar()) != '1') {
+    while ((c = getchar()) != EOF) {
         if (c >= 'A' && c <= 'Z' || c >= 'a' && c <= 'z' ) {
             ++wl;
         } else if (wl != 0) {
